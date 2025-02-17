@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug",
+	"dir-cur-src" : "/home/grs/CLionProjects/FuturesStrategyImproved",
+	"dir-top-bld" : "/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug",
+	"dir-top-src" : "/home/grs/CLionProjects/FuturesStrategyImproved",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug/CMakeFiles/FuturesStrategyImproved.dir"
+}

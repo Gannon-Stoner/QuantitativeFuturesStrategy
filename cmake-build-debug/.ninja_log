@@ -1,0 +1,8 @@
+# ninja log v6
+1	291	1738861448923148366	CMakeFiles/FuturesStrategyImproved.dir/main.cpp.o.ddi	13f7929a0cc363da
+291	295	1738861449213148366	CMakeFiles/FuturesStrategyImproved.dir/CXX.dd	e2b1e3475a0d788d
+291	295	1738861449213148366	/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug/CMakeFiles/FuturesStrategyImproved.dir/CXXModules.json	e2b1e3475a0d788d
+291	295	1738861449213148366	CMakeFiles/FuturesStrategyImproved.dir/main.cpp.o.modmap	e2b1e3475a0d788d
+1	51	1739818100043086358	build.ninja	f9f6f841c222d233
+295	4121	1738861449216481698	CMakeFiles/FuturesStrategyImproved.dir/main.cpp.o	28f698b1e5756fe3
+4121	4248	1738861453043148352	FuturesStrategyImproved	10a0ae43c8bedff5

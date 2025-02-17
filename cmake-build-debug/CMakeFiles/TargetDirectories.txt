@@ -1,0 +1,3 @@
+/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug/CMakeFiles/FuturesStrategyImproved.dir
+/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/grs/CLionProjects/FuturesStrategyImproved/cmake-build-debug/CMakeFiles/rebuild_cache.dir
