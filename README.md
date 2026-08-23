@@ -1,8 +1,3 @@
-Below is an example of a well‐formatted `README.md` file you can copy and paste into your repository:
-
----
-
-```markdown
 # Quantitative Futures Strategy
 
 This repository contains a C++ backtesting engine for quantitative futures strategies. It downloads intraday historical data, calculates various technical indicators, and runs a backtest on commodity futures. The results (including performance metrics and trade logs) are output as CSV files for further analysis.
@@ -74,7 +69,7 @@ Make sure these libraries are installed on your system.
 ## Usage
 
 - **API Key:**  
-  Update the `apikey` variable in `main.cpp` with your valid Financial Modeling Prep API key.
+  Set the `FMP_API_KEY` environment variable to your Financial Modeling Prep API key before running.
 
 - **Commodity Symbols:**  
   The project is pre-configured with several commodity symbols (e.g., wheat, soybeans, gold, crude oil). You can modify or extend these in `main.cpp`.

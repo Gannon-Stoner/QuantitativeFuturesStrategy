@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 #include <sstream>
 #include <vector>
 #include <string>
@@ -508,7 +509,12 @@ int main() {
     std::string timeframe = "30min";
     std::string fromDate = "2014-02-10";
     std::string toDate = "2024-03-10";
-    std::string apikey = "hI1y91X0BXXmDIq7MVQWUGOXwyYufJp6";
+    const char *apikeyEnv = std::getenv("FMP_API_KEY");
+    if (!apikeyEnv) {
+        std::cerr << "Set the FMP_API_KEY environment variable to your Financial Modeling Prep API key." << std::endl;
+        return 1;
+    }
+    std::string apikey = apikeyEnv;
 
     double initialCapital = 100000.0;
     int periodsPerYear = 3276;  // For 30-minute data: (6.5 hours * 2 periods/hour * 252 trading days)
