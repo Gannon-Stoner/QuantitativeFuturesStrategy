@@ -212,12 +212,8 @@ double reactionMultiplier(double currentPrice, double longMA, double stdDev) {
 
     double baseMultiplier = x * std::exp(0.2 * (1 - x * x));
 
-    // Asymmetric adjustment for both directions
-    if (currentPrice > longMA || currentPrice < longMA) {
-        return baseMultiplier * 0.9;  // 15% reduction for extended moves in either direction
-    }
-
-    return baseMultiplier;
+    // Damp the multiplier slightly for extended moves
+    return baseMultiplier * 0.9;
 }
 
 // -------------------------------
